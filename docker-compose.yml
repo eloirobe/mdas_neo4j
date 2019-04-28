@@ -1,0 +1,21 @@
+version: '3.1'
+services:
+  neo4j:
+    image: neo4j:latest
+    restart: always
+    volumes:
+      - neo4jData:/data
+      - ./logs:/logs
+      - ./import:/dataset/
+    ports:
+      - 7474:7474
+      - 7687:7687
+    networks:
+      - neo4j
+    environment:
+      - NEO4J_AUTH=neo4j/test
+volumes:
+  neo4jData:
+    driver: local
+networks:
+  neo4j:
