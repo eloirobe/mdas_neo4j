@@ -1,7 +1,7 @@
 [![CircleCI](https://circleci.com/gh/eloirobe/mdas_neo4j.svg?style=svg)](https://circleci.com/gh/eloirobe/mdas_neo4j)
 
-# MDAS NoSQL Neo4j <img src="https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png" width="50" height="50" />
-Bienvenidos a la imagen de Neo4j para a la asignatura de NoSQL del master [Máster en Desarrollo y Arquitectura de Software (MDAS)](https://www.salleurl.edu/es/estudios/master-en-desarrollo-y-arquitectura-software)
+# MDAS Bases de datos no estructuradas - Neo4j <img src="https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png" width="50" height="50" />
+Bienvenidos a la imagen de Neo4j para a la asignatura de Bases de datos no estructuradas del master [Máster en Desarrollo y Arquitectura de Software (MDAS)](https://www.salleurl.edu/es/estudios/master-en-desarrollo-y-arquitectura-software)
 
 Para arrancar el Neo4j y empezar a utilizar la imagen de docker realizar lo siguiente:
 
