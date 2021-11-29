@@ -15,12 +15,17 @@ git clone https://github.com/eloirobe/mdas_neo4j.git
 ```bash
 cd mdas_neo4j
 ## En modo stdout
-docker-compose up
+make start
 ## En modo silencioso
-docker-compose up -d
+make start-background
 ```
 3) Una vez haya arrancado loguearse en el navegador con la siguiente url
 ```
 http://localhost:7474/
 ```
 4) El usuario es neo4j contraseña test
+5) Si necesitamos cargar la base de datos para el ejercicio
+```bash
+make stop
+make restoreDb
+```
