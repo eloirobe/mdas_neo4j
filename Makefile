@@ -8,7 +8,6 @@ start-background: ## Start all containers
 	docker-compose up -d
 
 restoreDb: ## Restore Db to make exercise
-	rm -fr data
 	docker run --interactive --tty --rm     --publish=7474:7474 --publish=7687:7687     --volume=${PWD}/data:/data     --volume=${PWD}/import:/import     --user="$(id -u):$(id -g)"     neo4j:latest neo4j-admin load --from=/import/mdas-neo4j-exercise.dump --database=neo4j --force
 
 dumpDb: ## Make a Backup Db 
